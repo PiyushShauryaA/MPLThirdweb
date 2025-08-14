@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7820227189573510303
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7116009501374343141}
+  - component: {fileID: 2869567258224299470}
+  - component: {fileID: 6197050030616152769}
+  - component: {fileID: 6039799652048910593}
+  m_Layer: 0
+  m_Name: b_pawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &7116009501374343141
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7820227189573510303}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &2869567258224299470
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7820227189573510303}
+  m_CullTransparentMesh: 1
+--- !u!114 &6197050030616152769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7820227189573510303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 537ee0b4cd7f8f64e9fab94fdce457d1, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &6039799652048910593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7820227189573510303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9eadb10ce8aebc46849e20b029b9b92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: 0
+  color: 1
+  currentTile: {fileID: 0}
+  pieceImage: {fileID: 0}
+  queenSprite: {fileID: 21300000, guid: 59f88f795e75e9c42845f3f981561c5e, type: 3}
+  whitePawnSprite: {fileID: 21300000, guid: 29f0f5d77a2a3954a92f98af312b64da, type: 3}
+  whiteRookSprite: {fileID: 21300000, guid: e3bac50f7e252d943a4fc37682209f0d, type: 3}
+  whiteKnightSprite: {fileID: 21300000, guid: 47de037bce9798a469627c79616054a4, type: 3}
+  whiteBishopSprite: {fileID: 21300000, guid: 4178e314b0ee5684c8b296690a43fe76, type: 3}
+  whiteQueenSprite: {fileID: 21300000, guid: db75318a4ecfc8c48988d9bcf8c5e1a2, type: 3}
+  whiteKingSprite: {fileID: 21300000, guid: 69229aaf6a1d4554baa12bbe674d2b3f, type: 3}
+  blackPawnSprite: {fileID: 21300000, guid: 537ee0b4cd7f8f64e9fab94fdce457d1, type: 3}
+  blackRookSprite: {fileID: 21300000, guid: 8f4ef4fa3d5775246b348ed8d7021e7e, type: 3}
+  blackKnightSprite: {fileID: 21300000, guid: b4140b747e0bf734cb98c345945c7bf5, type: 3}
+  blackBishopSprite: {fileID: 21300000, guid: 30d18a296819ae74f9a44de99f2a45f9, type: 3}
+  blackQueenSprite: {fileID: 21300000, guid: 59f88f795e75e9c42845f3f981561c5e, type: 3}
+  blackKingSprite: {fileID: 21300000, guid: 2f7fc8be94fc9ae4d82aad0f41858c0b, type: 3}
+  hasMoved: 0
+  lastMoveTurn: -1
